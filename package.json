@@ -1,0 +1,33 @@
+{
+  "name": "@toolrack/builder",
+  "version": "0.0.2",
+  "description": "webpack config",
+  "main": "index.js",
+  "bin": {
+    "toolrack-build": "./index.js"
+  },
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "webpack",
+    "config"
+  ],
+  "author": "ishmukhametov.eduard@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.1",
+    "postcss": "^8.4.14",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-merge": "^5.8.0"
+  },
+  "peerDependencies": {
+
+  }
+}
